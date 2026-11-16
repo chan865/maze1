@@ -14,7 +14,7 @@ PATH = 0
 DIRECTIONS = ((-1, 0), (1, 0), (0, -1), (0, 1))  # 상, 하, 좌, 우
 BLUE, YELLOW, GREEN, RED = (0.2, 0.5, 1), (1, 1, 0), (0, 1, 0), (1, 0, 0)
 
-# 1. 미로 생성 (기존 코드 그대로)
+# 1. 미로 생성 
 def generate_maze(rows, cols, extra_openings=0.05, seed=None):
     """랜덤 미로를 만들어 (grid, start, goal)을 반환한다."""
     if seed is not None:
