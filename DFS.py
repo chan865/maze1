@@ -107,7 +107,7 @@ def reconstruct_path(parent, goal):
 
 # 3. 탐색 과정 애니메이션
 def main(rows, cols, algorithm=dfs, name="DFS"):
-    plt.rcParams["font.family"] = ["Malgun Gothic", "AppleGothic", "NanumGothic", "DejaVu Sans"]
+    plt.rcParams["font.family"] = ["Malgun Gothic", "NanumGothic", "DejaVu Sans"]
     plt.rcParams["axes.unicode_minus"] = False
     fig, ax = plt.subplots(figsize=(6, 6.6))
     fig.subplots_adjust(top=0.93, bottom=0.17)
